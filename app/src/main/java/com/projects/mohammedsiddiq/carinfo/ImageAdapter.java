@@ -53,27 +53,40 @@ public class ImageAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         ImageView imageView;
         View carView;
+//        GridItem gridItem = null;
         LayoutInflater inflater = (LayoutInflater) mContext
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         if (convertView == null) {
             // if it's not recycled, initialize some attributes
 
-            carView = new View(mContext);
-            carView = inflater.inflate(R.layout.cars_grid_layout, null);
-            TextView carName = (TextView) carView.findViewById(R.id.gridview_text);
-            ImageView carImage = (ImageView) carView.findViewById(R.id.gridview_image);
+//            carView = new View(mContext);
+//            gridItem = new GridItem();
 
+            carView = inflater.inflate(R.layout.cars_grid_layout, null);
 
 //            carImage.setLayoutParams(new ViewGroup.LayoutParams(300, 300));
 //            carImage.setScaleType(ImageView.ScaleType.FIT_CENTER);
-            carImage.setPadding(5, 5, 5, 5);
-            carImage.setImageResource(carImageIds[position]);
-            carName.setText(carNames[position]);
+
+
         } else {
-            carView = convertView;
+            carView = (View) convertView;
         }
+        TextView carName = (TextView) carView.findViewById(R.id.gridview_text);
+        ImageView carImage = (ImageView) carView.findViewById(R.id.gridview_image);
+
+//        gridItem.imageView = (ImageView) carView.findViewById(R.id.gridview_image);
+//        gridItem.textView = (TextView) carView.findViewById(R.id.gridview_text);
+        carImage.setPadding(5, 5, 5, 5);
+
+        carImage.setImageResource(carImageIds[position]);
+        carName.setText(carNames[position]);
 
 //        imageView.setImageResource(mThumbnailIds[position]);
         return carView;
     }
+//
+//    static class GridItem {
+//        TextView textView;
+//        ImageView imageView;
+//    }
 }

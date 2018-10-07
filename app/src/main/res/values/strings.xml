@@ -1,11 +1,4 @@
-<!--private Integer[] mThumbnailIds = {-->
-    <!--R.drawable.acura_body_kit_car_88628, R.drawable.asphalt_auto_automobile_244206,-->
-    <!--R.drawable.audi_automobile_car_lights_1149831, R.drawable.audi_sq5,-->
-    <!--R.drawable.benz_mercedess, R.drawable.wv_beetle_car_city_131811,-->
-    <!--R.drawable.ferrari_silverstone, R.drawable.range_rover,-->
-    <!--R.drawable.chevrolet_asphalt, R.drawable.lambhorgini, R.drawable.bmw_m6_coupe_automotive_beautiful_207600,-->
-    <!--R.drawable.jeep, R.drawable.chevrolet_bumper-->
-    <!--};-->
+<!--private Integer[] mThumbnailIds = {--><!--R.drawable.acura_body_kit_car_88628, R.drawable.asphalt_auto_automobile_244206,--><!--R.drawable.audi_automobile_car_lights_1149831, R.drawable.audi_sq5,--><!--R.drawable.benz_mercedess, R.drawable.wv_beetle_car_city_131811,--><!--R.drawable.ferrari_silverstone, R.drawable.range_rover,--><!--R.drawable.chevrolet_asphalt, R.drawable.lambhorgini, R.drawable.bmw_m6_coupe_automotive_beautiful_207600,--><!--R.drawable.jeep, R.drawable.chevrolet_bumper--><!--};-->
 <resources>
     <string name="app_name">Car Info</string>
     <string-array name="CarNames">
@@ -15,7 +8,7 @@
         <item>Audi SQ5</item>
         <item>Mercedes Benz</item>
         <item>Wolksvogen Beetle</item>
-        <item>Ferrari Silverstone</item>
+        <item>Ferrari</item>
         <item>Range Rover</item>
         <item>Chevrolet asphalt</item>
         <item>Lambhorgini</item>
@@ -23,4 +16,24 @@
         <item>Jeep</item>
         <item>Chevrolet Bumper</item>
     </string-array>
+    <string-array name="websiteLinks">
+        <item>https://www.acura.com/</item>
+        <item>https://www.chevrolet.com/suvs/suburban-large-suv</item>
+        <item>https://www.audi.co.uk/new-cars/a3/s3-sportback.html</item>
+        <item>https://www.audiusa.com/models/audi-q5</item>
+        <item>https://www.mercedes-benz.com/en/</item>
+        <item>https://www.vw.com/models/beetle/section/masthead/</item>
+        <item>https://auto.ferrari.com/en_EN/</item>
+        <item>https://www.landroverusa.com/index.html</item>
+        <item>https://www.chevrolet.com/trucks/colorado-mid-size-truck</item>
+        <item>https://www.lamborghini.com/en-en</item>
+        <item>https://www.bmwusa.com/vehicles/m-models/m6.html</item>
+        <item>https://www.jeep.com/</item>
+        <item>https://www.chevrolet.com/cars/spark-subcompact-car</item>
+    </string-array>
+    <string name="viewPosition"> position</string>
+    <string name="imageClicked">imageClicked</string>
+    <string name="ViewTheEntirePicture">View the entire picture</string>
+    <string name="showTheOfficialPage">Show the official page</string>
+    <string name="CarDealers">Car dealers in Chicago</string>
 </resources>
