@@ -98,11 +98,23 @@ public class MainActivity extends Activity {
             case R.id.openWebPage:
                 openWebpage(info.position);
                 return true;
+            case R.id.showCarDealers:
+                showCarDealers(info.position,mcarNames[info.position]);
+
             default:
                 return super.onContextItemSelected(item);
         }
     }
 
+    private void showCarDealers(int position,String carName) {
+        Intent intent = new Intent(MainActivity.this,CarDealers.class);
+        intent.putExtra(String.valueOf(R.string.imageClicked),position);
+        intent.putExtra(String.valueOf(R.string.carName),carName);
+        startActivity(intent);
+
+    }
+
+    //opens web page
     private void openWebpage(int position) {
         Intent intent = new Intent();
         intent.setData(Uri.parse(getResources().getStringArray(R.array.websiteLinks)[position]));
@@ -110,6 +122,8 @@ public class MainActivity extends Activity {
         startActivity(intent);
     }
 
+
+    //Displays picture in new activity
     private void viewPicture(int position) {
         Intent intent = new Intent(MainActivity.this, CarImageView.class);
         intent.putExtra(getResources().getString(R.string.viewPosition), position);

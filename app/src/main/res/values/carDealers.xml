@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="acuraDealers">
+        <item>McGrath Acura of Downtown Chicago : 1301 N Elston Ave, Chicago, IL</item>
+        <item>West End Auto Inc : 148 N Cicero Ave, Austin, Chicago, IL</item>
+        <item>Joe Rizza Acura : 8150 W. 159th Street, Chicagi, IL 60462</item>
+    </string-array>
+    <string-array name="chevroletAsphaltDealers">
+        <item>Mike Anderson Chevrolet of Chicago : 1301 N Elston Ave, Chicago, IL</item>
+        <item>Grossinger City Autoplex Chevrolet Cadillac : 148 N Cicero Ave, Austin, Chicago, IL</item>
+        <item>Rogers Chevrolet :  8150 W. 159th Street, Chicago, IL 60462</item>
+    </string-array>
+    <string-array name="audiS3Dealers">
+        <item>Audi Morton Grove :  8150 W. 159th Street, Chicagi, IL 60462</item>
+        <item>Audi Orland Park :  8150 W. 159th Street, Chicagi, IL 60462</item>
+        <item>Audi Westmont:  8150 W. 159th Street, Chicagi, IL 60462</item>
+    </string-array>
+    <string-array name="audiQ5Dealers">
+        <item>Greater Chicago Motors:  8150 W. 159th Street, Chicagi, IL 60462</item>
+        <item>Audi world:  8150 W. 159th Street, Chicagi, IL 60462</item>
+        <item>Chicago Audi Exchange:  8150 W. 159th Street, Chicagi, IL 60462</item>
+    </string-array>
+    <string-array name="mercedesBenzDealer">
+        <item>Mercedes-Benz of Chicago:  8150 W. 159th Street, Chicagi, IL 60462</item>
+        <item>Loeber Motors:  8150 W. 159th Street, Chicagi, IL 60462</item>
+        <item>Autohaus:  8150 W. 159th Street, Chicagi, IL 60462</item>
+    </string-array>
+
+    <string-array name="volkswagon">
+        <item>Volkswagen of Downtown Chicago :  1111 N Clark St, Chicago, IL 60610</item>
+        <item>The Autobarn Volkswagen of Evanston :  1033 Chicago Ave, Chicago, IL 60202</item>
+        <item>cityvwchicago:  5330 W Irving Park Rd, Chicago, IL‎ </item>
+    </string-array>
+
+    <string-array name="Ferrari">
+        <item>McLaren Chicago Showroom :  645 W Randolph St, Chicago, IL 60661</item>
+        <item>Bentley Gold Coast :  834 N Rush St, Chicago, IL 60611</item>
+        <item>Mancuso Motorsports : 677 N Clark St, Chicago, IL 60654</item>
+    </string-array>
+
+    <string-array name="RangeRover">
+        <item>Land Rover Chicago : 1924 N Paulina St, Chicago, IL 60622</item>
+        <item>CarMax : 6540 95th St, Oak Lawn, IL 60453</item>
+        <item>Rover World:  8150 W. 159th Street, Chicag0, IL 60462</item>
+    </string-array>
+
+    <string-array name="Chevrolet">
+        <item>Kingdom Chevy :  8150 W. 159th Street, Chicago, IL 60462</item>
+        <item>Loeber Motors:  8150 W. 159th Street, Chicago, IL 60462</item>
+        <item>Grossinger City Autoplex Chevrolet Cadillac : 148 N Cicero Ave, Austin, Chicago, IL</item>
+    </string-array>
+
+    <string-array name="Lambhorgini">
+        <item>Lamborghini Gold Coast Showroom : 834 N Rush St, Chicago, IL 60611</item>
+        <item>Perillo Downers Grove: 330 Ogden Ave, Downers Grove, IL 60515</item>
+        <item>Fletcher Jones :  1523 W North Ave, Chicago, IL 60642</item>
+    </string-array>
+
+    <string-array name="BMWM6">
+        <item>Perillo BMW : 1035 N Clark St, Chicago, IL 60610</item>
+        <item>Top Car Motors :  5480 N Elston Ave, Chicago, IL 60630 </item>
+        <item>Laurel BMW of Westmont :1245, 430 E Ogden Ave, Westmont, IL 60559</item>
+    </string-array>
+    <string-array name="Jeep">
+        <item>Marino Chrysler Jeep Dodge : 5133 W Irving Park Rd, Chicago, IL 60641</item>
+        <item>South Chicago Dodge Chrysler Jeep : 7340 S Western Ave, Chicago, IL 60636</item>
+        <item>Napleton's Northwestern Chrysler Jeep Dodge Ram :  5950 N Western Ave, Chicago, IL 60659</item>
+    </string-array>
+
+    <string-array name="ChevroletBumper">
+        <item>Kingdom Chevy :  8150 W. 159th Street, Chicago, IL 60462</item>
+        <item>Loeber Motors:  8150 W. 159th Street, Chicago, IL 60462</item>
+        <item>Grossinger City Autoplex Chevrolet Cadillac : 148 N Cicero Ave, Austin, Chicago, IL</item>
+    </string-array>
+
+
+    <array name="carDealers">
+        <item>@array/acuraDealers</item>
+        <item>@array/chevroletAsphaltDealers</item>
+        <item>@array/audiS3Dealers</item>
+        <item>@array/audiQ5Dealers</item>
+        <item>@array/mercedesBenzDealer</item>
+        <item>@array/volkswagon</item>
+        <item>@array/Ferrari</item>
+        <item>@array/RangeRover</item>
+        <item>@array/ChevroletBumper</item>
+        <item>@array/Lambhorgini</item>
+        <item>@array/BMWM6</item>
+        <item>@array/Jeep</item>
+        <item>@array/ChevroletBumper</item>
+
+    </array>
+    <!--<car-dealer>-->
+    <!--<dealer>-->
+    <!--<name>Mike Anderson Chevrolet of Chicago</name>-->
+    <!--<address></address>-->
+    <!--</dealer>-->
+    <!--<dealer>-->
+    <!--<name>Grossinger City Autoplex Chevrolet Cadillac</name>-->
+    <!--<address></address>-->
+    <!--</dealer>-->
+    <!--<dealer>-->
+    <!--<name>Rogers Chevrolet</name>-->
+    <!--<address></address>-->
+    <!--</dealer>-->
+    <!--</car-dealer>-->
+    <!--<car-dealer>-->
+    <!--<dealer>-->
+    <!--<name></name>-->
+    <!--<address></address>-->
+    <!--</dealer>-->
+    <!--<dealer>-->
+    <!--<name></name>-->
+    <!--<address></address>-->
+    <!--</dealer>-->
+    <!--<dealer>-->
+    <!--<name></name>-->
+    <!--<address></address>-->
+    <!--</dealer>-->
+    <!--</car-dealer>-->
+    <!--<car-dealer>-->
+    <!--<dealer>-->
+    <!--<name></name>-->
+    <!--<address></address>-->
+    <!--</dealer>-->
+    <!--<dealer>-->
+    <!--<name></name>-->
+    <!--<address></address>-->
+    <!--</dealer>-->
+    <!--<dealer>-->
+    <!--<name></name>-->
+    <!--<address></address>-->
+    <!--</dealer>-->
+    <!--</car-dealer>-->
+    <!--<car-dealer>-->
+    <!--<dealer>-->
+    <!--<name></name>-->
+    <!--<address></address>-->
+    <!--</dealer>-->
+    <!--<dealer>-->
+    <!--<name></name>-->
+    <!--<address></address>-->
+    <!--</dealer>-->
+    <!--<dealer>-->
+
+    <!--</dealer>-->
+
+    <!--</car-dealer>-->
+
+</resources>

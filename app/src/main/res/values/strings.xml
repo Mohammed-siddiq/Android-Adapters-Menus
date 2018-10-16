@@ -3,18 +3,18 @@
     <string name="app_name">Car Info</string>
     <string-array name="CarNames">
         <item>Acura</item>
-        <item>Asphalt</item>
-        <item>Audi demo</item>
+        <item>Chevrolet Suburban</item>
+        <item>Audi S3</item>
         <item>Audi SQ5</item>
         <item>Mercedes Benz</item>
-        <item>Wolksvogen Beetle</item>
+        <item>volkswagon Beetle</item>
         <item>Ferrari</item>
         <item>Range Rover</item>
-        <item>Chevrolet asphalt</item>
+        <item>Chevrolet colorado</item>
         <item>Lambhorgini</item>
         <item>BMW M6</item>
         <item>Jeep</item>
-        <item>Chevrolet Bumper</item>
+        <item>Chevrolet Spark</item>
     </string-array>
     <string-array name="websiteLinks">
         <item>https://www.acura.com/</item>
@@ -31,9 +31,38 @@
         <item>https://www.jeep.com/</item>
         <item>https://www.chevrolet.com/cars/spark-subcompact-car</item>
     </string-array>
+    <!--<string-array name="acuraDealers">-->
+    <!--<item>McGrath Acura of Downtown Chicago</item>-->
+    <!--<item>West End Auto Inc</item>-->
+    <!--<item>Chicagoland Acura Dealers Association</item>-->
+    <!--<item>Acura Illinois Dealers</item>-->
+    <!--</string-array>-->
+    <!--<string-array name="chevroletAsphaltDealers">-->
+    <!--<item>Mike Anderson Chevrolet of Chicago</item>-->
+    <!--<item>Grossinger City Autoplex Chevrolet Cadillac</item>-->
+    <!--<item>Rogers Chevrolet</item>-->
+    <!--<item>Kingdom Chevy</item>-->
+    <!--</string-array>-->
+    <!--<string-array name="audiS3Dealers">-->
+    <!--<item>Audi Morton Grove</item>-->
+    <!--<item>Audi Orland Park</item>-->
+    <!--<item>Audi Westmont</item>-->
+    <!--</string-array>-->
+    <!--<string-array name="audiQ5Dealers">-->
+    <!--<item>Greater Chicago Motors</item>-->
+    <!--<item>Audi world</item>-->
+    <!--<item>Chicago Audi Exchange</item>-->
+    <!--</string-array>-->
+    <!--<string-array name="mercedesBenzDealer">-->
+    <!--<item>Mercedes-Benz of Chicago</item>-->
+    <!--<item>Loeber Motors</item>-->
+    <!--<item>Autohaus</item>-->
+    <!--</string-array>-->
     <string name="viewPosition"> position</string>
     <string name="imageClicked">imageClicked</string>
     <string name="ViewTheEntirePicture">View the entire picture</string>
     <string name="showTheOfficialPage">Show the official page</string>
-    <string name="CarDealers">Car dealers in Chicago</string>
+    <string name="CarDealers">Car dealers in Chicago </string>
+    <string name="carName">CarName</string>
+    <string name="dealers">Dealers in Chicago for  </string>
 </resources>
